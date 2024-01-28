@@ -21,7 +21,7 @@ const Logo = () => {
         height={40}
         width={40}
         alt="logo"
-        className="hidden dark:block"/>
+        className="dark:opacity-100  opacity-0"/>
         <p className={cn("font-semibold ", Font.className)}>Notion</p>
         
     </div>

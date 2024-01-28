@@ -15,7 +15,7 @@ const Heroes = () => {
                 src={"/documents-dark.png"}
                 fill 
                 alt="hero"
-                className="object-contain dark:block hidden"
+                className="object-contain dark:opacity-100  opacity-0"
                 />
             </div>
             <div className="relative max-md:hidden md:block h-[400px] w-[400px] ">
@@ -29,7 +29,7 @@ const Heroes = () => {
                 src={"/reading-dark.png"}
                 fill 
                 alt="hero"
-                className="object-contain dark:block hidden"
+                className="object-contain dark:opacity-100  opacity-0"
                 />
             </div>
         </div>
