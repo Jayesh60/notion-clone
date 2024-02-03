@@ -11,17 +11,17 @@ const Logo = () => {
   return (
     <div className="max-md:hidden md:flex items-center gap-x-2 ">
         <Image 
-        src={'/logo.png'}
-        height={40}
-        width={40}
-        alt="logo"
-        className="dark:hidden"/>
-        <Image 
         src={'/logo-dark.png'}
         height={40}
         width={40}
         alt="logo"
         className="dark:opacity-100  opacity-0"/>
+        <Image 
+        src={'/logo.png'}
+        height={40}
+        width={40}
+        alt="logo"
+        className="dark:hidden"/>
         <p className={cn("font-semibold ", Font.className)}>Notion</p>
         
     </div>
